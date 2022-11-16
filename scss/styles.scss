@@ -1,0 +1,22 @@
+@import 'components/aside';
+@import 'Components/main';
+@import 'components/background';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+@media (max-width: 770px) {
+    section {
+        flex-direction: column;
+    }
+    aside{
+        max-width: 90%;
+        border-radius: 3px;
+        margin-bottom: 5px;
+    }
+}

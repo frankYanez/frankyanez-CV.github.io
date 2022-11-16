@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
+
+aside {
+    max-width: 30%;
+    background-image: linear-gradient(rgb(114, 228, 243), rgb(21, 152, 152));
+    box-shadow: 0px 0px 17px 32px rgba(0,0,0,0.1);
+
+}
+h1 {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+aside p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.photo {
+    max-width: 80%;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+}
+
+.div-aside {
+    display: flex;
+}
+
+
+

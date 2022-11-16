@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap");
+aside {
+  max-width: 30%;
+  background-image: linear-gradient(rgb(114, 228, 243), rgb(21, 152, 152));
+  box-shadow: 0px 0px 17px 32px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+
+aside p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.photo {
+  max-width: 80%;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+
+.div-aside {
+  display: flex;
+}
+
+.main {
+  padding-left: 50px;
+}
+
+.skill-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+body {
+  background-image: linear-gradient(135deg, #000000, #3e3f42, #565657, #2D163E);
+  background-size: 500%;
+  animation: bganimado 10s infinite;
+}
+
+@keyframes bganimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+@media (max-width: 770px) {
+  section {
+    flex-direction: column;
+  }
+
+  aside {
+    max-width: 90%;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
